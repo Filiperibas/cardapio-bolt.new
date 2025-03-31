@@ -11,9 +11,9 @@ function App() {
       <div className="min-h-screen bg-gray-50">
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/menu" element={<MenuPage />} />
-          <Route path="/cart" element={<CartPage />} />
+          <Route path="/" element={<HomePage.jsx />} />
+          <Route path="/menu" element={<MenuPage.jsx />} />
+          <Route path="/cart" element={<CartPage.jsx />} />
         </Routes>
       </div>
     </Router>
