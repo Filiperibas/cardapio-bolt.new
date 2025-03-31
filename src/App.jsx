@@ -10,6 +10,7 @@ function App() {
     <Router basename="/cardapio-bolt.new">
       <div className="min-h-screen bg-gray-50">
         <Header />
+        <h1 style={{ textAlign: 'center', color: 'red' }}>Testando deploy!</h1>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/menu" element={<MenuPage />} />
