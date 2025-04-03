@@ -7,7 +7,7 @@ import { CartPage } from './pages/CartPage';
 
 function App() {
   return (
-    <Router basename="/cardapio-bolt.new">
+    <Router>
       <div className="min-h-screen bg-gray-50">
         <Header />
         <h1 style={{ textAlign: 'center', color: 'red' }}>Testando deploy!</h1>
