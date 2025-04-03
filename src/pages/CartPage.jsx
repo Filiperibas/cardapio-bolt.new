@@ -218,7 +218,7 @@ Aguardo a confirmação do pedido. Obrigado!`;
           </Link>
           
           <a
-            href={`https://wa.me/5569992426823?text=${formatWhatsAppMessage()}`}
+            href={`https://wa.me/5569993646288?text=${formatWhatsAppMessage()}`}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-6 py-3 rounded-md inline-flex items-center hover:bg-green-600 transition-colors"
